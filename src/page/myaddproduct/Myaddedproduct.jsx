@@ -14,4 +14,4 @@ const Myaddedproduct = () => {
     );
 };
 
-// export default Myaddedproduct;
+export default Myaddedproduct;
