@@ -4,4 +4,4 @@
 * Allowing customers to add and remove items, view the order, and proceed to checkout.
 *  Product Management. Easily add, edit, and delete products. You can also categorize them, set prices, and manage inventor
 
-[Live link](https://lively-moonbeam-091ae5.netlify.app/)
+[Live link](https://restaurant-manage-4ccbf.web.app/)
