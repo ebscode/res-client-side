@@ -55,7 +55,7 @@ const Banner = () => {
     <div data-aos="fade-left">
     <p className="mb-5 text-xl">Tantalize Your Palate Highlighting the sensory experience of the food</p>
     </div>
-      <Link to={'/allfood'}><button className="btn btn-primary">shop now</button></Link>
+      <Link to={'/allfood'}><button className="btn btn-primary">shop now </button></Link>
     </div>
   </div>
 </div>

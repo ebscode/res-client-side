@@ -94,7 +94,7 @@ const router = createBrowserRouter([
       {
         path: "/myorder",
         element: <Myorder></Myorder>,
-        // loader:()=>fetch('https://server-side-nine-ashen.vercel.app/purchase',{credentials:'include'})
+       
       },
     ],
   },
