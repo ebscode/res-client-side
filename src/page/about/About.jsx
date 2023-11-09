@@ -119,7 +119,7 @@ const About = () => {
   
                   <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Amelia. Anderson</h1>
   
-                  <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Lead Developer</p>
+                  <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">assistant chef</p>
   
                   <div className="flex mt-3 -mx-2">
                       <a href="#" className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
