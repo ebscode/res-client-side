@@ -43,7 +43,7 @@ const Navbar = () => {
           to={"/"}
           className={({ isActive, isPending }) =>
             isActive
-              ? "bg-orange-600 p-1 rounded-lg text-white"
+              ? "bg-orange-500 p-1 rounded-lg text-white"
               : isPending
               ? "text-sky-900"
               : " dark:text-white"
@@ -55,7 +55,7 @@ const Navbar = () => {
           to={"/allfood"}
           className={({ isActive, isPending }) =>
             isActive
-              ? "bg-orange-600 p-1 rounded-lg text-white"
+              ? "bg-orange-500 p-1 rounded-lg text-white"
               : isPending
               ? "text-sky-900"
               : " dark:text-white"
@@ -74,7 +74,7 @@ const Navbar = () => {
         <NavLink
           className={({ isActive, isPending }) =>
             isActive
-              ? "bg-orange-600 p-1 rounded-lg text-white"
+              ? "bg-orange-500 p-1 rounded-lg text-white"
               : isPending
               ? "pending"
               : "dark:text-white"
@@ -87,7 +87,7 @@ const Navbar = () => {
         <NavLink
           className={({ isActive, isPending }) =>
             isActive
-              ? "bg-orange-600 p-1 rounded-lg text-white"
+              ? "bg-orange-500 p-1 rounded-lg text-white"
               : isPending
               ? "pending"
               : "dark:text-white"
@@ -102,7 +102,7 @@ const Navbar = () => {
             <NavLink
               className={({ isActive, isPending }) =>
                 isActive
-                  ? "bg-orange-600 p-1 rounded-lg text-white"
+                  ? "bg-orange-500 p-1 rounded-lg text-white"
                   : isPending
                   ? "pending"
                   : "dark:text-white"
