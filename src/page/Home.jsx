@@ -30,7 +30,7 @@ data?.map(value=><Topselling key={value._id} value={value}></Topselling>)
            </div>
            <div className="text-center">
               <Link to={'/allfood'}>
-              <button type="button" className="focus:outline-none m-8 btn btn-md text-white bg-orange-600 hover:bg-orange-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-orange-600 dark:hover:bg-orange-600 dark:focus:ring-orange-600">show all</button></Link>
+              <button type="button" className="focus:outline-none m-8 btn btn-md text-white bg-orange-500 hover:bg-orange-400 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-orange-600 dark:hover:bg-orange-600 dark:focus:ring-orange-600">show all</button></Link>
                 </div>
                 <Tablebooking></Tablebooking>
                 <Feature></Feature>
