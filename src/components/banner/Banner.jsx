@@ -13,7 +13,7 @@ const Banner = () => {
         <div>
  <div className="carousel h-screen w-full">
   <div id="slide1" className="carousel-item  relative h-screen w-full">
-  <div className="hero min-h-screen" style={{backgroundImage: 'url(https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)'}}>
+  <div className="hero min-h-screen" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)'}}>
  
 
   <div className="hero-overlay bg-opacity-40"></div>
