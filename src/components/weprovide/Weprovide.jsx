@@ -13,7 +13,7 @@ const Weprovide = () => {
 },[])
     return (
         <div data-aos="zoom-in-up">
-                {/* <div className="flex justify-center text-orange-600 font-semibold dark:text-white text-4xl m-8"><h1>we provide</h1></div> */}
+
 
                 <div class="relative max-w-screen-xl p-4 px-4 mx-auto bg-white dark:bg-[#1D232A] sm:px-6 lg:px-8 py-26 lg:mt-20">
     <div class="relative">
