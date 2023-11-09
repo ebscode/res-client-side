@@ -49,7 +49,7 @@ const Banner = () => {
   <div className="hero-content text-center text-neutral-content">
     <div className="">
 <div data-aos="fade-right">
-<h1 className="mb-5 text-6xl font-bold">Unforgettable Flavors, Unparalleled Atmosphere.
+<h1 className="mb-5 text-6xl font-bold">Unforgettable Flavors, Unparalleled Atmosphere
 </h1>
 </div>
     <div data-aos="fade-left">
