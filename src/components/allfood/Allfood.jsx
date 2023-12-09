@@ -26,7 +26,7 @@ const Allfood = () => {
 
   useEffect(() => {
     fetch(
-      `https://server-side-nine-ashen.vercel.app/foods?page=${currentpage}&size=${itemperpage}`
+      `https://restaurant-server-side-three.vercel.app/foods?page=${currentpage}&size=${itemperpage}`
     )
       .then((res) => res.json())
       .then((data) => setvalue(data));

@@ -23,7 +23,7 @@ const Foodpurchase = () => {
     const item = { foodname, date, price, email, name, quantity, Image };
     console.log(item);
 
-    fetch("https://server-side-nine-ashen.vercel.app/purchase", {
+    fetch("https://restaurant-server-side-three.vercel.app/purchase", {
       method: "post",
       headers: {
         "content-type": "application/json",

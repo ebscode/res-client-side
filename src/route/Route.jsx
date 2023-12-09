@@ -25,7 +25,8 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch("https://server-side-nine-ashen.vercel.app/foods"),
+        loader: () =>
+          fetch("https://restaurant-server-side-three.vercel.app/foods"),
       },
 
       {
@@ -40,7 +41,7 @@ const router = createBrowserRouter([
         path: "/allfood",
         element: <Allfood></Allfood>,
         loader: () =>
-          fetch("https://server-side-nine-ashen.vercel.app/foodcount"),
+          fetch("https://restaurant-server-side-three.vercel.app/foodcount"),
       },
       {
         path: "/details/:id",
@@ -51,7 +52,7 @@ const router = createBrowserRouter([
         ),
         loader: ({ params }) =>
           fetch(
-            `https://server-side-nine-ashen.vercel.app/singlefood/${params.id}`
+            `https://restaurant-server-side-three.vercel.app/singlefood/${params.id}`
           ),
       },
       {
@@ -59,7 +60,7 @@ const router = createBrowserRouter([
         element: <Foodpurchase></Foodpurchase>,
         loader: ({ params }) =>
           fetch(
-            `https://server-side-nine-ashen.vercel.app/singlefood/${params.id}`
+            `https://restaurant-server-side-three.vercel.app/singlefood/${params.id}`
           ),
       },
       {
@@ -81,20 +82,20 @@ const router = createBrowserRouter([
       {
         path: "/myaddproduct",
         element: <Myaddedproduct></Myaddedproduct>,
-        loader: () => fetch("https://server-side-nine-ashen.vercel.app/foods"),
+        loader: () =>
+          fetch("https://restaurant-server-side-three.vercel.app/foods"),
       },
       {
         path: "/update/:id",
         element: <Updateproduct></Updateproduct>,
         loader: ({ params }) =>
           fetch(
-            `https://server-side-nine-ashen.vercel.app/update/${params.id}`
+            `https://restaurant-server-side-three.vercel.app/update/${params.id}`
           ),
       },
       {
         path: "/myorder",
         element: <Myorder></Myorder>,
-       
       },
     ],
   },

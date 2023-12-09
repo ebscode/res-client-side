@@ -29,7 +29,7 @@ const Addproduct = () => {
     };
     console.log(item);
 
-    fetch("https://server-side-nine-ashen.vercel.app/foods", {
+    fetch("https://restaurant-server-side-three.vercel.app/foods", {
       method: "post",
       headers: {
         "content-type": "application/json",

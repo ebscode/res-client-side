@@ -43,7 +43,7 @@ const Updateproduct = () => {
     };
     console.log(item);
 
-    fetch(`https://server-side-nine-ashen.vercel.app/update/${_id}`, {
+    fetch(`https://restaurant-server-side-three.vercel.app/update/${_id}`, {
       method: "put",
       headers: {
         "content-type": "application/json",

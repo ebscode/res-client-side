@@ -28,15 +28,19 @@ const Authprovider = ({ children }) => {
       setloading(false);
       if (currentuser) {
         axios
-          .post("https://server-side-nine-ashen.vercel.app/jwt", loggedemail, {
-            withCredentials: true,
-          })
+          .post(
+            "https://restaurant-server-side-three.vercel.app/jwt",
+            loggedemail,
+            {
+              withCredentials: true,
+            }
+          )
           .then((res) => {
             console.log(res.data);
           });
       } else {
         axios.post(
-          "https://server-side-nine-ashen.vercel.app/logout",
+          "https://restaurant-server-side-three.vercel.app/logout",
           loggedemail,
           { withCredentials: true }
         );

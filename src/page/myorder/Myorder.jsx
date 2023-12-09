@@ -13,7 +13,7 @@ const Myorder = () => {
   useEffect(() => {
     if (user) {
       fetch(
-        `https://server-side-nine-ashen.vercel.app/purchase?email=${user?.email}`,
+        `https://restaurant-server-side-three.vercel.app/purchase?email=${user?.email}`,
         { credentials: "include" }
       )
         .then((res) => res.json())
@@ -32,9 +32,12 @@ const Myorder = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`https://server-side-nine-ashen.vercel.app/purchasee/${id}`, {
-          method: "DELETE",
-        })
+        fetch(
+          `https://restaurant-server-side-three.vercel.app/purchasee/${id}`,
+          {
+            method: "DELETE",
+          }
+        )
           .then((res) => res.json())
           .then((data) => {
             console.log(data);
