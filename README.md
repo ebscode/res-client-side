@@ -8,3 +8,13 @@
 * Reviews and Testimonials: Integrate customer reviews or testimonials to build trust and credibility.
 
 [Live link](https://restaurant-manage-4ccbf.web.app/)
+
+
+
+# project selling line 
+* Restaurant website with online ordering, dish management and excellent customer service
+
+
+## Feature
+1. Unveiling Dual Themes in Classico Italiano Seamlessly switch between two visually distinct themes for a personalized and inclusive user experience
+2. Reservations & Waitlists Allow customers to book tables or join waitlists if dining room is full. Sync with on-site host/hostess
